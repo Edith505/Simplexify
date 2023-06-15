@@ -8,4 +8,97 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #07020D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+header{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 0 3em;
+}
+
+.title{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.title span{
+    color: #FC6C6C;
+}
+
+.title img{
+    width: 80px;
+}
+.para{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.para::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #FC6C6C;
+    width: 20%;
+    margin: 10px 40%;
+  }
+.forme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-label{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.choice{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width:40%;
+    background-color: #FFFFFF;
+    padding: 2.5em;
+}
+
+input{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.method select{
+    width: 160px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#variable-decision{
+    width: 160px;
+}
+
+#variable-contrainte{
+    width: 160px;
+}
+
+.submit{
+    margin-top: 2.5em;
+    color: #FFFFFF;
+    background: #07020D;
+    border: 1px  solid #07020D;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.submit:hover{
+    transition:all 0.5s ease;
+    border: 1px  solid #FC6C6C;
+    background-color: #FC6C6C;
 }

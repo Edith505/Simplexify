@@ -9,28 +9,31 @@
 </head>
 <body>
     <header>
-        <h1>SIMPLEXIFY <img src="/images/math.png" alt="logo"></h1>
-        <p>Ceci est un programme implémentant l'algorithme du Simplexe</p>       
+        <h1 class="title"><img src="/images/math.png" alt="logo">SIMPLEXIFY<span>.</span></h1>
+        <p>(Ceci est un programme implémentant l'algorithme du simplexe)</p>       
     </header>
     <!--================ Forme pour le choix des données =======================-->
     <div class="choice">
-        <form>
-            <div class="method">
-                <label for="method-choice">Méthode :</label>
-                <select name="method-choice" id="method-choice">
-                    <option value="">Simplexe/ II Phases</option>
-                    <option value="">Graphique</option>
-                </select>
-            </div>
-
-            <div class="variable">
-                <label for="variable-decision">Variable de décision :</label>
-                <input type="text" id="variable-decision" name="variable-decision">
-            </div>
-
-            <div class="contraites">
-                <label for="variable-contrainte">Contraintes :</label>
-                <input type="text" name="variable-contrainte" id="variable-contrainte">
+        <p class="para">Veuillez entrer les données nécessaires.</p>
+        <form class="forme">
+            <div class="input-label">
+                <div class="method">
+                    <label for="method-choice">Méthode :</label>
+                    <select name="method-choice" id="method-choice">
+                        <option value="">Simplexe/ II Phases</option>
+                        <option value="">Graphique</option>
+                    </select>
+                </div>
+    
+                <div class="variable">
+                    <label for="variable-decision">Variable de décision :</label>
+                    <input type="text" id="variable-decision" name="variable-decision">
+                </div>
+    
+                <div class="contraites">
+                    <label for="variable-contrainte">Contraintes :</label>
+                    <input type="text" name="variable-contrainte" id="variable-contrainte">
+                </div>
             </div>
             <input type="submit" value="Valider" class="submit">
         </form>
