@@ -22,7 +22,7 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 3em 0 3em;
+    margin: 2em 0 3em;
 }
 
 .title{
@@ -110,6 +110,7 @@ input{
     background-color: #FFFFFF;
     padding: 2.5em;
     margin-top: 10px;
+    display: none;
 }
 
 .function-choice select{
@@ -128,7 +129,7 @@ input{
     text-decoration: underline;
 }
 
-.funct{
+#container{
     display :flex;
     flex-direction: row;
     justify-content: space-around;
@@ -150,7 +151,8 @@ input{
 }
 
 .div-funct label{
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .insert-contraint input{
@@ -168,11 +170,16 @@ input{
 .erreur {
     color: #FC6C6C;
     font-size: 12px;
-    margin-top: 5px;
 }
 
 
-
-
-
+/***** forme standard*****/
+.double-containte{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width:40%;
+    background-color: #FFFFFF;
+    padding: 2.5em;
+    margin-top: 10px;
+}
 

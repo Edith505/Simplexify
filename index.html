@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/Js/script.js" defer></script>cr
+    <script src="/Js/script.js" defer></script>
     <title>Simplexify</title>
 </head>
 <body>
@@ -53,42 +53,29 @@
 
             <div class="funct-opt">
                 <p>Fonction à optimiser :</p>
-                <div class="funct">
-                    <div class="div-funct">
-                        <label>X1 :</label>
-                        <input type="text">
-                    </div>
-                    <div class="div-funct">
-                        <label>X1 :</label>
-                        <input type="text">
-                    </div>
-                    <div class="div-funct">
-                        <label>X1 :</label>
-                        <input type="text">
-                    </div>
-                </div>
+                <div id="container"></div>
             </div>
 
             <div class="contraint">
                 <p>Entrer les contraintes</p>
-                <div class="div-contraint">
-                    <div class="insert-contraint">
-                        <input type="text" name="contrainte" id="contrainte"><span>X1 +</span>
-                        <input type="text" name="contrainte" id="contrainte"><span>X2 +</span>
-                        <input type="text" name="contrainte" id="contrainte"><span>X3</span>
-                        <select>
-                            <option value="=">=</option>
-                            <option value=">=">≥</option>
-                            <option value="<=">≤</option>
-                        </select>
-                        <input type="text" name="" id="">
-                    </div>
-                </div>
+                <div class="contraintes-container" id="contraintes-container"></div>
                 <p id="sommet">"On commence par la solution de base qui correspond au sommet 0"</p>
             </div>
-            <input type="submit" value="Confirmer" class="submit" onclick="return validerFormulaire2();">
+            <input type="submit" value="Confirmer" class="submit">
         </form>
-
     </div>
+
+     <!-- ====== Forme standard : ======-->
+     <div class="double-containte">
+        <div class="standard-forme">
+            
+        </div>
+        <div class="table-init">
+
+            
+        </div>
+     </div>
+     
 </body>
 </html>
+
