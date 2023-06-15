@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Simplexify</title>
+</head>
+<body>
+    <header>
+        <h1>SIMPLEXIFY</h1>
+        <p>Ceci est un programme implémentant l'algorithme du Simplexe</p>       
+    </header>
+    <!--================ Forme pour le choix des données =======================-->
+    <div class="choice">
+        <form>
+            <div class="method">
+                <label for="method-choice">Méthode :</label>
+                <select name="method-choice" id="method-choice">
+                    <option value="">Simplexe/ II Phases</option>
+                    <option value="">Graphique</option>
+                </select>
+            </div>
+
+            <div class="variable">
+                <label for="variable-decision">Variable de décision :</label>
+                <input type="text" id="variable-decision" name="variable-decision">
+            </div>
+
+            <div class="contraites">
+                <label for="variable-contrainte">Contraintes :</label>
+                <input type="text" name="variable-contrainte" id="variable-contrainte">
+            </div>
+            <input type="submit" value="Valider" class="submit">
+        </form>
+    </div>
+</body>
+</html>
