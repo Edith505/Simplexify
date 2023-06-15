@@ -22,7 +22,7 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 5em 0 3em;
+    margin: 3em 0 3em;
 }
 
 .title{
@@ -94,7 +94,6 @@ input{
     padding: 8px 20px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .submit:hover{
@@ -102,3 +101,67 @@ input{
     border: 1px  solid #FC6C6C;
     background-color: #FC6C6C;
 }
+
+/** Classe insert **/
+.insert{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    width:40%;
+    background-color: #FFFFFF;
+    padding: 2.5em;
+    margin-top: 10px;
+}
+
+.function-choice select{
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.funct-opt{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.funct-opt p{
+    text-decoration: underline;
+}
+
+.funct{
+    display :flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contraint{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contraint p{
+    text-decoration: underline;
+}
+.div-funct input{
+    width: 60px;
+}
+.insert-contraint span{
+    margin-left: 10px;
+}
+
+.div-funct label{
+    margin-left: 20px;
+}
+
+.insert-contraint input{
+    width: 60px;
+}
+.insert-contraint select{
+    padding:5px;
+    margin: 0 10px;
+}
+#sommet{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
