@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/Js/script.js" defer></script>cr
     <title>Simplexify</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
     <!--================ Forme pour le choix des données =======================-->
     <div class="choice">
         <p class="para">Veuillez entrer les données nécessaires.</p>
-        <form class="forme">
+        <form class="forme" onsubmit="return validerFormulaire();">
             <div class="input-label">
                 <div class="method">
                     <label for="method-choice">Méthode :</label>
@@ -85,7 +86,7 @@
                 </div>
                 <p id="sommet">"On commence par la solution de base qui correspond au sommet 0"</p>
             </div>
-            <input type="submit" value="Confirmer" class="submit">
+            <input type="submit" value="Confirmer" class="submit" onclick="return validerFormulaire2();">
         </form>
 
     </div>
